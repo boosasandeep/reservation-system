@@ -15,8 +15,6 @@ import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 import Home from "./pages";
 import Home_10 from "./pages/homes/home_10";
 import NotFoundPage from "./pages/not-found";
-import About from "./pages/others/about";
-import BecomeExpert from "./pages/others/become-expert";
 import HelpCenter from "./pages/others/help-center";
 import LogIn from "./pages/others/login";
 import SignUp from "./pages/others/signup";
@@ -59,30 +57,28 @@ function App() {
               <Route path="404" element={<NotFoundPage />} />
               <Route path="*" element={<NotFoundPage />} />
 
-              <Route path="about" element={<About />} />
-              <Route path="become-expert" element={<BecomeExpert />} />
               <Route path="help-center" element={<HelpCenter />} />
-              <Route path="signup" element={<SignUp />} />
+              {/* <Route path="signup" element={<SignUp />} />
               <Route path="login" element={<LogIn />} />
               <Route path="terms" element={<Terms />} />
-              <Route path="invoice" element={<Invoice />} />
+              <Route path="invoice" element={<Invoice />} /> */}
               <Route path="contact" element={<Contact />} />
-              <Route path="destinations" element={<Destinations />} />
+              {/* <Route path="destinations" element={<Destinations />} /> */}
 
-              <Route path="dashboard">
+              {/* <Route path="dashboard">
                 <Route path="db-dashboard" element={<DBDashboard />} />
                 <Route path="db-booking" element={<DBBooking />} />
                 <Route path="db-wishlist" element={<DBWishlist />} />
                 <Route path="db-settings" element={<DBSettings />} />
-              </Route>
+              </Route> */}
 
-              <Route path="vendor-dashboard">
+              {/* <Route path="vendor-dashboard">
                 <Route path="dashboard" element={<VendorDashboard />} />
                 <Route path="add-hotel" element={<VendorAddHotel />} />
                 <Route path="booking" element={<VendorBooking />} />
                 <Route path="hotels" element={<BVVendorHotel />} />
                 <Route path="recovery" element={<BDVendorRecovery />} />
-              </Route>
+              </Route> */}
 
               <Route path="flight-list-v1" element={<FlightListPage1 />} />
             </Route>
