@@ -1,4 +1,4 @@
-import Social from "../../common/social/Social";
+
 
 const Copyright = () => {
   return (
@@ -49,12 +49,6 @@ const Copyright = () => {
             </div>
           </div>
           {/* End .col */}
-
-          <div className="col-auto">
-            <div className="d-flex x-gap-20 items-center">
-              <Social />
-            </div>
-          </div>
           {/* End .col */}
         </div>
       </div>

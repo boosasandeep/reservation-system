@@ -3,7 +3,6 @@ import DefaultHeader from "@/components/header/default-header";
 import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/block/BlockGuide";
 import Address from "@/components/block/Address";
-import Social from "@/components/common/social/Social";
 import ContactForm from "@/components/common/ContactForm";
 import LocationTopBar from "@/components/common/LocationTopBar";
 
@@ -61,15 +60,6 @@ const Contact = () => {
 
             <Address />
             {/* End address com */}
-
-            <div className="col-auto">
-              <div className="text-14 text-light-1">
-                Follow us on social media
-              </div>
-              <div className="d-flex x-gap-20 items-center mt-10">
-                <Social />
-              </div>
-            </div>
             {/* End .col */}
           </div>
           {/* End .row */}

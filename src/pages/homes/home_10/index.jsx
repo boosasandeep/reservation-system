@@ -5,7 +5,6 @@ import Footer8 from "@/components/footer/footer-8";
 import Blog from "@/components/blog/Blog3";
 import BlockGuide from "@/components/block/BlockGuide";
 import Flights from "@/components/flight/Flights";
-import AppBanner from "@/components/home/home-10/AppBanner";
 import TopDestinations from "@/components/home/home-10/TopDestinations";
 import TestimonialRating from "@/components/home/home-10/TestimonialRating";
 import Testimonial from "@/components/home/home-10/Testimonial";
@@ -171,32 +170,8 @@ const Home_10 = () => {
         {/* End .container */}
       </section>
       {/* End popular routes Section */}
-
-      <AppBanner />
       {/* App Banner Section */}
 
-      <section className="layout-pt-lg layout-pb-lg">
-        <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">
-                  Get inspiration for your next trip
-                </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row  */}
-          <div className="row y-gap-30 pt-40">
-            <Blog />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
       {/* End blog Section */}
 
       <Footer8 />

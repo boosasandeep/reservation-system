@@ -1,8 +1,6 @@
-import AppButton from "./AppButton";
 import ContactInfo from "./ContactInfo";
 import Copyright from "./Copyright";
 import FooterContent from "./FooterContent";
-import Social from "../../common/social/Social";
 import Subscribe from "./Subscribe";
 
 const index = () => {
@@ -23,19 +21,8 @@ const index = () => {
                   <h5 className="text-16 fw-500">Your all-in-one travel app</h5>
                 </div>
                 {/* End .col */}
-
-                <AppButton />
               </div>
               {/* End .row */}
-
-              <div className="mt-60">
-                <h5 className="text-16 fw-500 mb-10">
-                  Follow us on social media
-                </h5>
-                <div className="d-flex x-gap-20 items-center">
-                  <Social />
-                </div>
-              </div>
             </div>
             {/* End .col */}
 
