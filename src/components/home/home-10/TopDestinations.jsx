@@ -44,9 +44,6 @@ const TopDestinations = () => {
                 <h4 className="text-26 fw-600 text-white text-capitalize">
                   {item.location}
                 </h4>
-                <div className="text-15 text-white">
-                  {item.numberOfProperties} Properites
-                </div>
               </div>
             </Link>
           </SwiperSlide>
