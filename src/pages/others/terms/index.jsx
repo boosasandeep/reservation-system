@@ -1,8 +1,7 @@
 import CallToActions from "@/components/common/CallToActions";
-import DefaultHeader from "@/components/header/default-header";
-import DefaultFooter from "@/components/footer/default";
 import TermsConent from "@/components/common/TermsConent";
-
+import Header10 from "@/components/header/header-10";
+import Footer8 from "@/components/footer/footer-8";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
@@ -19,7 +18,7 @@ const Terms = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <DefaultHeader />
+      <Header10 />
       {/* End Header 1 */}
 
       <section className="layout-pt-lg layout-pb-lg">
@@ -30,11 +29,8 @@ const Terms = () => {
         </div>
       </section>
       {/* End terms section */}
-
-      <CallToActions />
-      {/* End Call To Actions Section */}
-
-      <DefaultFooter />
+      
+      <Footer8 />
       {/* End Call To Actions Section */}
     </>
   );

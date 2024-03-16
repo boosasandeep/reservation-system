@@ -33,6 +33,9 @@ const MainMenu = ({ style = "" }) => {
         <li className={pathname === "/contact" ? "current" : ""}>
           <Link to="/contact">Contact</Link>
         </li>
+        <li className={pathname === "/terms" ? "current" : ""}>
+          <Link to="/terms">About Us</Link>
+        </li>
       </ul>
     </nav>
   );

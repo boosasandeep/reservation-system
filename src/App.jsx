@@ -58,9 +58,11 @@ function App() {
               <Route path="*" element={<NotFoundPage />} />
 
               <Route path="help-center" element={<HelpCenter />} />
+              <Route path="terms" element={<Terms />} />
+              
               {/* <Route path="signup" element={<SignUp />} />
               <Route path="login" element={<LogIn />} />
-              <Route path="terms" element={<Terms />} />
+              
               <Route path="invoice" element={<Invoice />} /> */}
               <Route path="contact" element={<Contact />} />
               {/* <Route path="destinations" element={<Destinations />} /> */}
