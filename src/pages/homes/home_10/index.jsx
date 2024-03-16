@@ -12,8 +12,8 @@ import PopularRoutes from "@/components/home/home-10/PopularRoutes";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Home-10 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Reservations Center Inc",
+  description: "Reservations Center Inc",
 };
 
 const Home_10 = () => {

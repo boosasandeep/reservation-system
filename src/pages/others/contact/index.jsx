@@ -88,8 +88,6 @@ const Contact = () => {
         {/* End .container */}
       </section>
       {/* End Why Choose Us section */}
-
-      <CallToActions />
       {/* End Call To Actions Section */}
 
       <Footer8 />
