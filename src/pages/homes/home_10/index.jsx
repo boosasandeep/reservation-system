@@ -8,8 +8,8 @@ import TopDestinations from "@/components/home/home-10/TopDestinations";
 import TestimonialRating from "@/components/home/home-10/TestimonialRating";
 import Testimonial from "@/components/home/home-10/Testimonial";
 import PopularRoutes from "@/components/home/home-10/PopularRoutes";
-
 import MetaComponent from "@/components/common/MetaComponent";
+import { useEffect, useState } from "react";
 
 const metadata = {
   title: "Reservations Center Inc",
@@ -17,6 +17,22 @@ const metadata = {
 };
 
 const Home_10 = () => {
+
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // var res = getFlightSearchResults();
+    // console.log(res);
+    // var api = new ApiService();
+    // api.getFlightSearchResults().then(response => setData(response));
+    // fetch('https://api.publicapis.org/entries')
+    //   .then(response => response.json())
+    //   .then(json => setData(json))
+    //   .catch(error => console.error(error));
+  }, []);
+
+  console.log(data);
+  //getFlightSearchResults();
   return (
     <>
       <MetaComponent meta={metadata} />
@@ -90,22 +106,13 @@ const Home_10 = () => {
           <div className="row justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top Destinations</h2>
+                <h2 className="sectionTitle__title">Top Flights</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                  These popular flights have lot's of offers
                 </p>
               </div>
             </div>
             {/* End col-auto */}
-
-            <div className="col-auto">
-              <a
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                More <div className="icon-arrow-top-right ml-15" />
-              </a>
-            </div>
             {/* End col-auto */}
           </div>
           {/* End .row */}

@@ -2,41 +2,33 @@ export const testimonial1 = [
   {
     id: 1,
     avatar: "/img/avatars/testimonials/1.png",
-    name: "Annette Black",
-    designation: "UX / UI Designer",
-    text: `The place is in a great location in Gumbet. The area is safe and
-        beautiful. The apartment was comfortable and the host was kind and
-        responsive to our requests. Really a nice place.`,
+    name: "Emily Brown",
+    designation: "Adventure Seeker",
+    text: `I've tried numerous flight booking apps, but none compare to this gem. It's like having a personal travel assistant at my fingertips.`,
     dealyAnimation: "100",
   },
   {
     id: 2,
     avatar: "/img/avatars/testimonials/2.png",
-    name: "Annette Black",
-    designation: "UX / UI Designer",
-    text: `The place is in a great location in Gumbet. The area is safe and
-        beautiful. The apartment was comfortable and the host was kind and
-        responsive to our requests. Really a nice place.`,
+    name: "Sarah Johnson",
+    designation: "Travel Enthusiast",
+    text: `Booking flights has never been easier! The app's intuitive interface and quick processing saved me valuable time. Highly impressed!.`,
     dealyAnimation: "200",
   },
   {
     id: 3,
     avatar: "/img/avatars/testimonials/3.png",
-    name: "Annette Black",
-    designation: "UX / UI Designer",
-    text: `The place is in a great location in Gumbet. The area is safe and
-        beautiful. The apartment was comfortable and the host was kind and
-        responsive to our requests. Really a nice place.`,
+    name: "Michael Smith",
+    designation: "Business Executive",
+    text: `As a frequent flyer, I rely on efficiency and reliability. This app delivers both seamlessly. From booking to boarding, it's my go-to choice.`,
     dealyAnimation: "300",
   },
   {
     id: 4,
     avatar: "/img/avatars/testimonials/1.png",
-    name: "Annette Black",
-    designation: "UX / UI Designer",
-    text: `The place is in a great location in Gumbet. The area is safe and
-        beautiful. The apartment was comfortable and the host was kind and
-        responsive to our requests. Really a nice place.`,
+    name: "David Williams",
+    designation: "Tech Entrepreneur",
+    text: `This app exceeded my expectations! From finding the best deals to managing my itinerary, it's a game-changer. Kudos to the developers!.`,
     dealyAnimation: "400",
   },
 ];

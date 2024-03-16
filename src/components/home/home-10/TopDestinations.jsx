@@ -34,7 +34,7 @@ const TopDestinations = () => {
         {destinations10.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
-              to="/tour-list-v2"
+              to="/"
               className="citiesCard -type-3 d-block h-full rounded-4 "
             >
               <div className="citiesCard__image ratio ratio-1:1">
@@ -45,7 +45,7 @@ const TopDestinations = () => {
                   {item.location}
                 </h4>
                 <div className="text-15 text-white">
-                  {item.numberOfProperties} properties
+                  {item.numberOfProperties}
                 </div>
               </div>
             </Link>

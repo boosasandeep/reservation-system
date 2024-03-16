@@ -31,7 +31,7 @@ const Header1 = () => {
               <div className="d-flex items-center">
                 <Link to="/" className="header-logo mr-50">
                   <img src="/img/general/logo-dark-3.svg" alt="logo icon" />
-                  <img src="/img/general/logo-dark-3.svg" alt="logo icon" />
+                  <img src="/img/general/Reservation.png" alt="logo icon" />
                 </Link>
                 {/* End logo */}
 

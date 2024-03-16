@@ -770,7 +770,8 @@
   padding-top: 360px;
   padding-bottom: 205px;
   background: linear-gradient(180deg, rgba(53, 84, 209, 0.1) 0%, rgba(196, 196, 196, 0) 100%);
-
+  background-color: #e6c8f5;
+  
   @include media-below(lg) {
     padding-top: 140px;
     padding-bottom: 60px;
