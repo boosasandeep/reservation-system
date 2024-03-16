@@ -1,5 +1,5 @@
 import CallToActions from "@/components/common/CallToActions";
-import Header11 from "@/components/header/header-11";
+import Header10 from "@/components/header/header-10";
 import DefaultFooter from "@/components/footer/default";
 import MainFilterSearchBox from "@/components/flight-list/flight-list-v1/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/flight-list/flight-list-v1/TopHeaderFilter";
@@ -23,7 +23,7 @@ const FlightListPage1 = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
+      <Header10 />
       {/* End Header 1 */}
 
       <section className="pt-40 pb-40">

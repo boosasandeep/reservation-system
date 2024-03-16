@@ -4,7 +4,6 @@ const footercontent = [
     title: "Company",
     menuList: [
       { name: "Home", routerPath: "/" },
-      { name: "Destinations", routerPath: "/" },
       { name: "Contact", routerPath: "/" },
     ],
   }

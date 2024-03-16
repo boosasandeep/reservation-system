@@ -26,21 +26,10 @@ const MainMenu = ({ style = "" }) => {
           className={`${isActiveParentChaild(homeItems, pathname) ? "current" : ""
             } menu-item-has-children`}
         >
-          <a href="#">
+          <a href="/">
             <span className="mr-10">Home</span>
           </a>
         </li>
-        {/* End home page menu */}
-
-        {/* End categories menu items */}
-
-        <li className={pathname === "/destinations" ? "current" : ""}>
-          <Link to="/destinations">Destinations</Link>
-        </li>
-        {/* End Destinatinos single menu */}
-        {/* End blogIems */}
-        {/* End pages items */}
-
         <li className={pathname === "/contact" ? "current" : ""}>
           <Link to="/contact">Contact</Link>
         </li>

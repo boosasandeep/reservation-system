@@ -1,12 +1,11 @@
 import CallToActions from "@/components/common/CallToActions";
-import DefaultHeader from "@/components/header/default-header";
-import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/block/BlockGuide";
 import Address from "@/components/block/Address";
 import ContactForm from "@/components/common/ContactForm";
 import LocationTopBar from "@/components/common/LocationTopBar";
-
+import Header10 from "@/components/header/header-10";
 import MetaComponent from "@/components/common/MetaComponent";
+import Footer8 from "@/components/footer/footer-8";
 
 const metadata = {
   title: "Contact || GoTrip - Travel & Tour ReactJs Template",
@@ -22,7 +21,7 @@ const Contact = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <DefaultHeader />
+      <Header10 />
       {/* End Header 1 */}
 
       <LocationTopBar />
@@ -31,7 +30,7 @@ const Contact = () => {
       <div className="map-outer">
         <div className="map-canvas">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182586.0420340798!2d-73.99038430252834!3d40.749936548349346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1670824458615!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.9576435301146!2d-86.04870477090427!3d39.611518227278474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b42595a306717%3A0x376739047ae08e18!2s2914%20Heirloom%20Ln%2C%20Greenwood%2C%20IN%2046143%2C%20USA!5e0!3m2!1sen!2sin!4v1710589438483!5m2!1sen!2sin"
             loading="lazy"
           ></iframe>
         </div>
@@ -93,7 +92,7 @@ const Contact = () => {
       <CallToActions />
       {/* End Call To Actions Section */}
 
-      <DefaultFooter />
+      <Footer8 />
       {/* End Call To Actions Section */}
     </>
   );

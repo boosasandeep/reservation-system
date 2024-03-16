@@ -2,7 +2,6 @@ import Header10 from "@/components/header/header-10";
 import Hero10 from "@/components/hero/hero-10";
 import { Link } from "react-router-dom";
 import Footer8 from "@/components/footer/footer-8";
-import Blog from "@/components/blog/Blog3";
 import BlockGuide from "@/components/block/BlockGuide";
 import Flights from "@/components/flight/Flights";
 import TopDestinations from "@/components/home/home-10/TopDestinations";
