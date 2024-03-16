@@ -8,7 +8,7 @@ const PopularRoutes = () => {
     {
       id: 1,
       tag: "",
-      img: "/img/rentals/1.png",
+      img: "/img/flights/2560px-COPA_Airlines_Logo_2011.svg.png",
       destination: "Istanbul - New York",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -18,7 +18,7 @@ const PopularRoutes = () => {
     {
       id: 2,
       tag: "",
-      img: "/img/rentals/2.png",
+      img: "/img/flights/aa-american-airlines-logo-2017-11569056777vuzzvnx3hp.png",
       destination: "Istanbul - Paris",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -28,7 +28,7 @@ const PopularRoutes = () => {
     {
       id: 3,
       tag: "",
-      img: "/img/rentals/3.png",
+      img: "/img/flights/Delta-Air-Lines-Logo.png",
       destination: "Istanbul - Antalya",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -38,7 +38,7 @@ const PopularRoutes = () => {
     {
       id: 4,
       tag: "",
-      img: "/img/rentals/4.png",
+      img: "/img/flights/images (1).png",
       destination: "Istanbul - London",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -48,7 +48,7 @@ const PopularRoutes = () => {
     {
       id: 5,
       tag: "",
-      img: "/img/rentals/1.png",
+      img: "/img/flights/images.png",
       destination: "Istanbul - New York",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
@@ -58,7 +58,7 @@ const PopularRoutes = () => {
     {
       id: 6,
       tag: "",
-      img: "/img/rentals/2.png",
+      img: "/img/flights/kisspng-logo-klm-airline-organization-airway--5b6c0a9c627917.4565398215338072604034.jpg",
       destination: "Istanbul - Paris",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",

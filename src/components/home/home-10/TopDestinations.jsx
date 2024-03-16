@@ -45,7 +45,7 @@ const TopDestinations = () => {
                   {item.location}
                 </h4>
                 <div className="text-15 text-white">
-                  {item.numberOfProperties}
+                  {item.numberOfProperties} Properites
                 </div>
               </div>
             </Link>

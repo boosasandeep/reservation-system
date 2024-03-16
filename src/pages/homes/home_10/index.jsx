@@ -51,7 +51,7 @@ const Home_10 = () => {
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Why Choose Us</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                  Choose us for 24/7 support, seamless booking, unbeatable deals, and unparalleled convenience. Travel stress-free!
                 </p>
               </div>
             </div>
@@ -74,20 +74,11 @@ const Home_10 = () => {
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Recommended Flights</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                  Discover top-flight deals with ease. Book now for seamless travel experience. Your journey starts here!
                 </p>
               </div>
             </div>
             {/* End .col */}
-
-            <div className="col-auto">
-              <Link
-                to="/flight-list-v1"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                More <div className="icon-arrow-top-right ml-15" />
-              </Link>
-            </div>
             {/* End .col */}
           </div>
           {/* End .row */}
@@ -106,7 +97,7 @@ const Home_10 = () => {
           <div className="row justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top Flights</h2>
+                <h2 className="sectionTitle__title">Top Destinations</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   These popular flights have lot's of offers
                 </p>
@@ -151,20 +142,11 @@ const Home_10 = () => {
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Popular Routes</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                Explore scenic wonders or bustling cities. Discover popular routes for your next adventure with ease.
                 </p>
               </div>
             </div>
             {/* End .col */}
-
-            <div className="col-auto">
-              <Link
-                to="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                More <div className="icon-arrow-top-right ml-15" />
-              </Link>
-            </div>
           </div>
           {/* End .row */}
 
