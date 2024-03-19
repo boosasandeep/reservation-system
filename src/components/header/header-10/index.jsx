@@ -30,9 +30,13 @@ const Header1 = () => {
             <div className="col-auto">
               <div className="d-flex items-center">
                 <Link to="/" className="header-logo mr-50">
-                  <img src="/img/general/logo-dark-3.svg" alt="logo icon" />
                   <img src="/img/general/Reservation.png" alt="logo icon" />
                 </Link>
+                {/* End logo */}
+                <a style={{ border: "1px solid", padding: '0px 11px' }}
+                  href={'tel:+(1) (866) 855 0947'} className="text-18 fw-500 text-dark-1 mt-5 is-menu-opened-hide d-none xl:d-flex ">
+                  Call
+                </a>
                 {/* End logo */}
 
                 <div className="header-menu">
@@ -49,6 +53,11 @@ const Header1 = () => {
             <div className="col-auto">
               <div className="d-flex items-center">
                 <div className="d-flex items-center is-menu-opened-hide md:d-none">
+                  <a
+                    href={'tel:+(1) (866) 855 0947'} className="text-18 fw-500 text-dark-1 mt-5">
+                    Contact: +(1) (866) 855 0947
+                  </a>
+
                 </div>
                 {/* End d-flex */}
 
@@ -83,7 +92,7 @@ const Header1 = () => {
           {/* End .row */}
         </div>
         {/* End header_container */}
-      </header>
+      </header >
       {/* End header */}
     </>
   );
