@@ -33,9 +33,15 @@ const Header1 = () => {
                   <img src="/img/general/Reservation.png" alt="logo icon" />
                 </Link>
                 {/* End logo */}
-                <a style={{ border: "1px solid", padding: '0px 11px' }}
+                <a style={{
+                  border: "1px solid",
+                  background: 'black',
+                  color: 'white',
+                  width:'105px',
+                  padding: '0px 11px'
+                }}
                   href={'tel:+(1) (866) 855 0947'} className="text-18 fw-500 text-dark-1 mt-5 is-menu-opened-hide d-none xl:d-flex ">
-                  Call
+                  Call Now
                 </a>
                 {/* End logo */}
 
@@ -64,12 +70,12 @@ const Header1 = () => {
                 {/* Start mobile menu icon */}
                 <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-dark-1">
                   <div>
-                    <button
+                    {/* <button
                       className="d-flex items-center icon-menu text-inherit text-20"
                       data-bs-toggle="offcanvas"
                       aria-controls="mobile-sidebar_menu"
                       data-bs-target="#mobile-sidebar_menu"
-                    />
+                    /> */}
 
                     <div
                       className="offcanvas offcanvas-start  mobile_menu-contnet"

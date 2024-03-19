@@ -13,9 +13,11 @@ const Index = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Where do You Want To Fly
+                <a href={'tel:+(1) (866) 855 0947'} style={{ fontSize: '25px' }}>
+                  <span style={{display:'block'}}>For instant booking Call </span>  <span>+(1) (866) 855 0947</span>
+                </a>
               </h1>
-              <p className="mt-5" data-aos="fade-up" data-aos-delay="200">
+              <p className="mt-5 md:d-none" data-aos="fade-up" data-aos-delay="200">
                 Discover amzaing places at exclusive deals
               </p>
               <div data-aos="fade-up" data-aos-delay="300">
@@ -39,7 +41,7 @@ const Index = () => {
           data-aos="fade-left"
           data-aos-delay="500"
         >
-          <div className="row y-gap-30 flex-nowrap">
+          <div className="row y-gap-30 flex-nowrap  md:d-none">
             <div className="col-auto">
               <img
                 src="/img/general/Call_Now.png"
